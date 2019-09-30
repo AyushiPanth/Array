@@ -9,13 +9,17 @@ import java.util.Scanner;
 
 public class TwoDimensionalArrayIO {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)throws IOException {
         Scanner input=new Scanner (System.in);
         int i,j;
         int numbers[][]=new int[4][4];
         System.out.println("Input 9 numbers: ");
        
-        
+        for(i=0;i<4;i++)
+        {
+          for(j=0;j<4;j++)
+             a[i][j]=input.nextInt();
+        }
     }
     
 }
